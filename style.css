@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;800&family=Roboto:wght@700&display=swap');
+*{
+    padding: 0em;
+    margin: 0em;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    background-color: white;
+}
+nav{
+    position: fixed;
+    background-color: #f44336;
+    color: rgb(255, 255, 255);
+}
+nav ul{
+    list-style-type:none;
+    padding: 0 30px;
+    margin-top: 50px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+nav ul li {
+    line-height: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    height: 50px;
+    padding: 10px;
+}
+nav ul li a:hover{
+    display: flex;
+    background-color:white;
+    color: black;
+    border-radius: 5%;
+}
+a:hover{
+    color: black;
+}
+.body1{
+    padding-left: 22em;
+    padding-top: 4em;
+    padding-right: 4em;
+    padding-bottom: 4em;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    color: #f44336;
+    font-size: 3em;
+}
+
+nav{
+    height: 100%;
+    width: 20%;
+    float: left;
+    position: fixed;
+}
+.line{
+    height: 0.90px;
+    width: 50px;
+    border: 5px solid #f44336;
+    border-radius: 4px;
+}
+nav h3{
+    padding: 0 30px;
+    margin-top: 70px;
+    font-size: 2em;
+}
+.images img{
+    width: 470px;
+    height: 400px;
+    margin-top: 10px;
+    padding-left: 1em;
+}
+.img2 img{
+    width: 470px;
+    height: 300px;
+}
+.img3 img{
+    width: 470px;
+    height: 300px;
+}
+.services .p{
+    font-size: 16px;
+}
+h1 h2 h3{
+    font-family: 'Roboto', sans-serif;
+}
+#team{
+    font-weight: bold;
+}
+.ceo{
+    color: grey;
+}
+.imgteam{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team   {
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+    background-color:#f1f1f1;
+}
+.team-text {
+    padding-left: 10px;
+    
+}
+h4{
+    font-size: 24px;
+}
+table{
+    float: left;
+    
+}
+#basic{
+    background-color: #616161;
+    color: white;
+}
+#pro{
+    background-color: #f44336;
+    color: white;
+}
+.pro{
+    margin-left: 10px;
+}
+table{
+    width:  520px;
+    text-align: center;
+}
+thead{
+    font-size: 24px;
+    height: 100px;
+}
+table tr td{
+    border-bottom: 1px solid #ddd;
+    background-color: #f1f1f1;
+    height: 60px;
+    font-size: 16px;
+}
+.p{
+    font-size: xx-large;
+    padding-top: 25px;
+    padding-bottom: -25px;
+
+}
+#perroom{
+    color: gray;
+    padding-top: 10px;
+}
+#signup2{
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+
+#signup1{
+    background-color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 110px;
+    height: 50px;
+}
+#signup1:hover , #signup2:hover{
+    background-color: aqua;
+}
+tr td p{
+    height: 50px;
+}
+.name{
+    font-size: 18px;
+}
+.signup{
+    padding: 17px;
+}
+.contact{
+    padding-left: 22em;
+    margin-top: 35em;
+}
+.input{
+    width:  91%;
+    padding: 8px;
+    border-color: #ccc;
+}
+.button{
+    width: 92.8%;
+    padding: 8px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+}
+footer{
+    background-color: #f1f1f1;
+    padding-left: 22em;
+    margin-top: 10em;
+    height: 100px;
+}
+#end {
+    font-size: x-large;
+}
+footer i{
+    font-size: xx-large;
+    margin-left: 2px;
+}
+footer a{
+    text-decoration: none;
+}
+button:hover{
+    background-color: aqua;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
